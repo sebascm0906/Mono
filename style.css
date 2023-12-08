@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

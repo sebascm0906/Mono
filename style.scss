@@ -1,4 +1,11 @@
 $primary: #eee9e5;
 $danger: #04724D;
 $border-width:                1px;
+
+.carousel-item img {
+    width: 100%; // Cambia el ancho de las imágenes al 100% del contenedor
+    height: auto; // Mantiene la proporción original de la imagen
+}
+
+
 @import "node_modules/bootstrap/scss/bootstrap";

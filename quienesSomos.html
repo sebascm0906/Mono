@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mono Cocina Canábica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-primary">
+    <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <span class="navbar-text text-light">
+            Mono cocina canábica #420
+          </span>
+        </div>
+        <div class="d-flex ml-auto">
+          <a class="navbar-brand" href="#">
+            <img href="login.html" src="fotos/carritoCompras.svg" alt="Bootstrap" width="30" height="24">
+          </a>
+          <a href="login.html" class="btn btn-outline-light me-2">Iniciar_Sesión</a>
+          <a href="registro.html" class="btn btn-outline-light">Registrarse</a>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="fotos/Mono.svg" alt="Bootstrap" width="30" height="24">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="main.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-current="page" href="#" aria-disabled="true" >¿Quiénes somos?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cenas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Smokeshope</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Ron 420</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">FAQ</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col">
+
+            </div>
+            <div class="col">
+            <div class="card m-5" style="width: 40rem;">
+                <img src="fotos/monoMayor.jpg" class="card-img-top" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quibusdam laudantium, temporibus magnam eaque voluptate ea cupiditate officia atque, error magni. Ratione magni voluptates laboriosam placeat excepturi ullam voluptas nihil.">
+                <div class="card-body">
+                <h5 class="card-title">¿Quiénes somos?</h5>
+                <p class="card-text">Somos una empresa dedicada a la cocina canábica, con el fin de brindar una experiencia única a nuestros clientes.</p>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                
+            </div>
+
+
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+
+      
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+        // Inicializar los componentes de Bootstrap que utilices
+        var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+        var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+          return new bootstrap.Dropdown(dropdownToggleEl)
+        })
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#list-example'
+        });
+      </script>
+      
+
+</body>
+<footer class="footer bg-body-tertiary text-center py-3">
+    <div class="container">
+        <p class="mb-0">© 2023 Mono Cocina Canábica. Todos los derechos reservados.</p>
+        <a class="navbar-brand">
+          <img href="login.html" src="fotos/brand-instagram.svg" alt="Bootstrap" width="30" height="24">
+          <img href="login.html" src="fotos/brand-whatsapp.svg" alt="Bootstrap" width="30" height="24">
+          <img href="login.html" src="fotos/brand-facebook.svg" alt="Bootstrap" width="30" height="24">
+        </a>
+        
+    </div>
+</footer>
+
+</html>
+
