@@ -7,5 +7,10 @@ $border-width:                1px;
     height: auto; // Mantiene la proporción original de la imagen
 }
 
+.custom-margin {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
